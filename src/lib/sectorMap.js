@@ -1,5 +1,3 @@
-// src/lib/sectorMap.js
-// Códigos canônicos -> lista de aliases/nomes equivalentes usados pelas redes
 // Cobertura dos 17 departamentos informados
 
 export const SECTOR_MAP = {
