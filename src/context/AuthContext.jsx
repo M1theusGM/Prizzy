@@ -1,11 +1,10 @@
-// src/context/AuthContext.jsx
 import React, { createContext, useContext, useEffect, useMemo, useState } from "react";
 
 const AuthContext = createContext(null);
 
 // Lê variáveis do Vite
 const API_URL = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
-// ATENÇÃO: mock só se explicitamente "true"
+
 const USE_MOCK = String(import.meta.env.VITE_MOCK_AUTH || "false").toLowerCase() === "true";
 
 // Helper para requests
